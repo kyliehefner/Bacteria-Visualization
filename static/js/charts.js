@@ -48,7 +48,7 @@ function buildMetadata(sample) {
 		// Hint: Inside the loop, you will need to use d3 to append new
 		// tags for each key-value in the metadata.
 		Object.entries(result).forEach(([key, value]) => {
-			PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+			PANEL.append("h5").text(`${key.toUpperCase()}: ${value}`);
 		});
 
 	});
@@ -100,7 +100,16 @@ function buildCharts(sample) {
 
 		// 1.9 Create the layout for the bar chart. 
 		var barLayout = {
-			title: "Top 10 Bacteria Cultures Found"
+			title: "Top 10 Bacteria Cultures Found",
+			margin: {
+				l: 100,
+				r: 100,
+				b: 50,
+				t: 50,
+				pad: 0
+			},
+			paper_bgcolor: 'rgba(0,0,0,0)',
+			font: {color: "white", family: "Trebuchet MS", size: 14}
 		};
 
 		// 1.10 Use Plotly to plot the data with the layout. 
@@ -126,11 +135,13 @@ function buildCharts(sample) {
 			margin: {
 				l: 50,
 				r: 50,
-				b: 50,
+				b: 100,
 				t: 50,
 				pad: 0
 			},
-			hovermode: "closest"
+			hovermode: "closest",
+			paper_bgcolor: 'rgba(0,0,0,0)',
+			font: {color: "white", family: "Trebuchet MS", size: 14}
 		};
 
 		// 2.3 Use Plotly to plot the data with the layout.
@@ -157,9 +168,11 @@ function buildCharts(sample) {
 		
 		// 3.5 Create the layout for the gauge chart.
 		var gaugeLayout = { 
-			width: 400,
-  			height: 500,
+			width: 450,
+  			height: 450,
   			margin: { t: 25, r: 25, l: 25, b: 25 },
+			paper_bgcolor: 'rgba(0,0,0,0)',
+			font: { color: "white", family: "Trebuchet MS" }
 		};
 	
 		// 3.6 Use Plotly to plot the gauge data and layout.
