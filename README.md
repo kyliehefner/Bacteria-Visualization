@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Bacterial Visualization
 
-You can use the [editor on GitHub](https://github.com/kyliehefner/Bacteria-Visualization/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kyliehefner/Bacteria-Visualization/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Purpose
+### About the Study
+The food startup "Improbable Beef" has partnered with a lab to study bacterial species. Their goal is to identify bacterial species that can synthesize proteins to improve the taste of their synthetic beef products.\
+Bacteria found on the human body varies between body part and person. This study collected data from samples of study participants of the bacteria found in their navel.
+### About the Dashboard
+With the interactive charts, you can explore the types and amounts of bacteria cultures found in the sample of each participant.\
+The dashboard includes a dropdown menu to select any participant from the study by their assigned number. You can then see the 10 most populous bacteria found in their sample, their navel washing frequency in a gauge chart, and an interactive bubble chart where each bubble represents one type of bacteria found in their sample and the size of the bubbles represents the amount of that bacteria found.
